@@ -244,7 +244,7 @@ elif select=="Scraping data in youtube":
     with st.container():
         st.subheader('This webpage tells about web scrabbing by using AI')
         st.title('web extracting data in social media videos')
-        st.sidebar.image("logo1.png",width=200)
+        
     
        
 
