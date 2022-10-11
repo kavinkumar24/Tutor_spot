@@ -15,7 +15,6 @@ import urllib
 import os
 import youtube_dl
 import speech_recognition as sr
-import moviepy.editor as mp
 import json
 import requests,sys,webbrowser,bs4
 
@@ -23,7 +22,6 @@ from youtube_transcript_api import YouTubeTranscriptApi,NoTranscriptFound,VideoU
 import nltk
 import string
 from heapq import nlargest
-import pywhatkit as pwt
 from streamlit_option_menu import option_menu
 from gtts import gTTS
 from googletrans import Translator
@@ -220,6 +218,3 @@ elif select== "Find best books":
 
             st.markdown(page_bg_img, unsafe_allow_html=True)
             
-    
-
-
