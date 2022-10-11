@@ -273,15 +273,13 @@ elif select=="Scraping data in youtube":
                 color: #4F8BF9;
                 border-color: green;
             }
-              [data-testid="stAppViewContainer"] > .main{
-               background-color: #c8d8e4; 
-               }
-
+             
         </style>
         """,
         unsafe_allow_html=True
     )
     
+    base = "light"
     base = "light"
     
     if st.button("Click To view the details of the video"):
