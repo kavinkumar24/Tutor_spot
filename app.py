@@ -223,21 +223,6 @@ elif select=="Scraping data in youtube":
     
     
     
-    age_bg_img = f"""
-    <style>
-    [data-testid="stAppViewContainer"] > .main {{
-    background-color: #c8d8e4;
-    background-size: 180%;
-    background-position: top left;  
-    background-attachment: local;
-    
-    }}
-    [data-testid="stHeader"]{{
-        background-color:rgba(0,0,0,0);
-    }}
-    </style>
-    """ 
-    st.markdown(page_bg_img, unsafe_allow_html=True)
     
     
     st.title("Welcome to Our webpage (learn everywhere)")
@@ -288,6 +273,9 @@ elif select=="Scraping data in youtube":
                 color: #4F8BF9;
                 border-color: green;
             }
+              [data-testid="stAppViewContainer"] > .main{
+               background-color: #c8d8e4; 
+               }
 
         </style>
         """,
