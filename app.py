@@ -1,7 +1,4 @@
-import os
-import time
-import glob
-import os
+
 from tokenize import Name
 
 
@@ -22,7 +19,6 @@ import os
 import youtube_dl
 import speech_recognition as sr
 import moviepy.editor as mp
-from sklearn.feature_extraction.text import TfidfVectorizer
 import json
 import requests,sys,webbrowser,bs4
 
@@ -37,7 +33,6 @@ from googletrans import Translator
 
 import base64
 
-import os
 
 import string
 import sys
