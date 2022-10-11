@@ -144,8 +144,6 @@ elif select=="English Translator":
     """
 
     st.markdown(page_bg_img, unsafe_allow_html=True)
-    image = Image.open('trans.png')
-    st.image(image,  width=90)
 
     st.markdown(page_bg_img, unsafe_allow_html=True)
     st.header("Translator:")
