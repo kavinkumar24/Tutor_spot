@@ -20,8 +20,5 @@ youtube-transcript-api==0.4.4
 jsonschema==4.13.0
 jupyter-client==7.3.4
 nltk==3.7
-PyAudio==0.2.12
-PyAutoGUI==0.9.53
 pywhatkit==5.4
 gTTS==2.2.4
-protobuf>=3.9.2
