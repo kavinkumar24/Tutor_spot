@@ -127,7 +127,6 @@ if select == "Text summarization ":
             
 elif select=="English Translator":
     import base64
-    import plotly.express as px
 
     page_bg_img = f"""
     <style>
