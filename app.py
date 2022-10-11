@@ -217,4 +217,125 @@ elif select== "Find best books":
             """
 
             st.markdown(page_bg_img, unsafe_allow_html=True)
+
+            
+elif select=="Scraping data in youtube":
+    
+    st.title("Welcome to Our webpage (learn everywhere)")
+    def load_lottiefile(filepath:str):
+        with open(filepath,"r") as f:
+            return json.load(f)
+    def load_lottieurl(url:str):
+        r = requests.get(url)
+        if r.status_code !=200:
+            return None 
+        return r.json()
+    lottie_load1 =load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_p4q9ra7d.json")
+
+    st_lottie (
+        lottie_load1,
+        speed=1,
+        quality = "low",
+        height=500,
+        width=700,
+        key=None
+    )
+
+    with st.container():
+        st.subheader('This webpage tells about web scrabbing by using AI')
+        st.title('web extracting data in social media videos')
+        st.sidebar.image("logo1.png",width=200)
+    
+       
+
+
+    with st.container():
+        try:
+            url = st.text_input('The URL link', placeholder = "type your url")
+            yt =  YouTube(url)
+        except RegexMatchError:
+            st.write("press enter key and than proceed")
+        st.markdown(
+        """
+        <style>
+            .stButton > button{
+                border-radius:12%;
+                background-color:#DAFDF4;
+                border-color: green;
+                color:black;
+            }
+            
+            .stTextInput>div>div>TextInput {
+                color: #4F8BF9;
+                border-color: green;
+            }
+
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+    
+    base = "light"
+    
+    if st.button("Click To view the details of the video"):
+        try:
+            
+            with st.container():
+                st.write("Title :", yt.title)
+                # To get number of views
+                st.write("Views :", yt.views)
+                # To get the length of video
+                st.write("Duration :", yt.length)
+                # To get description
+                st.write("Description :", yt.description)
+                # To get ratings
+                st.write("Ratings :", yt.rating)
+        except NameError:
+            st.warning("Paste the url and proceed",icon="⚠️")
+
+    if st.button('Download MP4'):
+        try:
+            stream = yt.streams.get_highest_resolution()
+            stream.download('Downloads')
+            st.header("Download completed!!")
+            with st.container():
+                def load_lottiefile(filepath:str):
+                    with open(filepath,"r") as f:
+                        return json.load(f)
+                def load_lottieurl(url:str):
+                    r = requests.get(url)
+                    if r.status_code !=200:
+                        return None 
+                    return r.json()
+            lottie_do =load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_o8dma9lg.json")
+            st_lottie (
+                lottie_do,
+                speed=1,
+                quality = "low",
+                height=200,
+                width=700,
+                key=None,
+            )
+                    
+        except NameError:
+            st.warning('enter the url and proceed', icon="⚠️")
+    if st.checkbox("Show the subtitles"):
+                try:
+                    a2 = url.replace("https://www.youtube.com/watch?v=",'')
+                    print(a2)
+                    srt = YouTubeTranscriptApi.get_transcript(a2)
+                    text = ""
+                    for i in srt:
+                        text += i["text"] + "..."
+                    st.write(text)
+                except NoTranscriptFound:
+                    st.warning("sorry this video does not contain the subtitles")
+                except VideoUnavailable:
+                    st.warning("Paste the url in the given box",icon="⚠️")
+                        
+                
+                    
+
+    
+
             
