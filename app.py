@@ -37,7 +37,6 @@ import base64
 hide_st_style = """
 <style>
 
-
 footer {visibility:hidden;}
 </style>
 """
