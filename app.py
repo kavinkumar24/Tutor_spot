@@ -27,7 +27,6 @@ from gtts import gTTS
 from googletrans import Translator
 
 import base64
-
 import string
 import sys
 import time
