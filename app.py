@@ -49,15 +49,20 @@ with st.sidebar:
         )
     page_bg_img = f"""
     <style>
+    .menu .container-xxl[data-v-4323f8ce]{{
+        background-color:white;
+        color:black;
+    }}
     [data-testid="stSidebar"] {{
 
-    background-color:#abd1ed;
+    background-color:#faeae8;
     color:white;    
     }}
    
     </style>
     """ 
     st.markdown(page_bg_img, unsafe_allow_html=True)
+    base='light'
     
 
 if select == "Text summarization ":
