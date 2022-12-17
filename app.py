@@ -34,12 +34,7 @@ import PyPDF2
 import base64
 
 
-hide_st_style = """
-<style>
-footer {visibility:hidden;}
-</style>
-"""
-st.markdown(hide_st_style,unsafe_allow_html=True)
+
 with st.sidebar:
     st.title("Tutor Spot")
     select = option_menu(
