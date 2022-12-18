@@ -903,7 +903,7 @@ elif select=='read the language':
 
         def remove_files(n):
             
-            mp3_files = glob.glob("temp/*mp3")
+            mp3_files = glob("temp/*mp3")
             if len(mp3_files) != 0:
                 now = time.time()
                 n_days = n * 86400
