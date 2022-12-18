@@ -356,6 +356,7 @@ elif select=="MP4/MP3 to Text":
     #mp4 to text
     
     st.header("This option is support only in PC so please try in PC")
+    st.caption("We will update soon")
     page_bg_img = f"""
     <style>
     .st-bx{{
