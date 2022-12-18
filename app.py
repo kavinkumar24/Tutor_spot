@@ -266,7 +266,11 @@ elif select=="Scraping data in youtube":
             st.write("press enter key and than proceed")
         st.markdown(
         """
-        <style>
+        .st-bx{
+        border:2px solid #e8d2c3;
+        background-color:white;
+            }
+        
             .stButton > button{
                 border-radius:12%;
                 background-color:#DAFDF4;
@@ -278,7 +282,10 @@ elif select=="Scraping data in youtube":
                 color: #4F8BF9;
                 border-color: green;
             }
-             
+
+            [data-testid="stAppViewContainer"] > .main {
+               background-color: #f3f0ec;
+             }
         </style>
         """,
         unsafe_allow_html=True
