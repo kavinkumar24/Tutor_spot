@@ -132,8 +132,14 @@ elif select=="English Translator":
 
     page_bg_img = f"""
     <style>
+    .st-bx{{
+        border:2px solid #e8d2c3;
+    }}
+    *{{
+    color:black;
+     }}
     [data-testid="stAppViewContainer"] > .main {{
-    background-color: #c8d8e4;
+    background-color: #f3f0ec;
     background-size: 180%;
     background-position: top left;
     background-repeat: no-repeat;
