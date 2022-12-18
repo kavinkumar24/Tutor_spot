@@ -266,7 +266,8 @@ elif select=="Scraping data in youtube":
             st.write("press enter key and than proceed")
         st.markdown(
         """
-        .st-bx{
+       <style>
+         .st-bx{
         border:2px solid #e8d2c3;
         background-color:white;
             }
