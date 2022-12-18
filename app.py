@@ -439,4 +439,47 @@ elif select=="MP4/MP3 to Text":
         except OSError:
             st.write("please give the path of mp4 file")
 
-            
+        def load_lottiefile(filepath:str):
+            with open(filepath,"r") as f:
+                    return json.load(f)
+    def load_lottieurl(url:str):
+        r = requests.get(url)
+        if r.status_code !=200:
+            return None 
+        return r.json()
+    lottie_txt =load_lottieurl("https://assets2.lottiefiles.com/private_files/lf30_tuarzhkt.json")
+
+    st_lottie (
+        lottie_txt,
+        speed=1,
+        quality = "low",
+        height=200,
+        width=400,
+        key=None
+    )
+    #mp3 to text
+
+    path1 = st.text_input("Enter the path of mp3 or wav file:",placeholder="Give the total relative path of Mp3 or wav file only")
+    updated_path1=""
+    for j in path1:
+        if j!='"':
+            updated_path1=updated_path1+j
+    
+    # the below algorithm is used to convert the audio into text
+    if st.button("mp3 to text"):
+        
+        try:
+            audio_path = mp.AudioFileClip(r"{}".format(updated_path1)) 
+            audio_path.write_audiofile("cplusplus.wav")
+            audio1 = sr.AudioFile("cplusplus.wav")
+            recognizer = sr.Recognizer()
+
+            with audio1 as source:
+                audio_file1 = recognizer.record(source,duration=120)
+                st.write(recognizer.recognize_google(audio_file1))
+        except OSError:
+            st.write("Give the path of the mp3")
+    try:
+        os.remove(r'cplusplus.wav')
+    except FileNotFoundError:
+        st.write(" ")
