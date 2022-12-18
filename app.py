@@ -421,6 +421,22 @@ elif select=="MP4/MP3 to Text":
     )
     path_input =st.text_input("Enter the relative path of mp4 file:",placeholder="give the path of mp4 file")
 
+    path = ""
+    for i in path_input:
+        if i!='"':
+            path=path+i
+    if st.button("Convert MP4 into text"):
+        try:
+
+            clip = mp.VideoFileClip(r"{}".format(path))
+            clip.audio.write_audiofile("ai.wav")
+            recognizer = sr.Recognizer()
+            audio = sr.AudioFile("ai.wav")
+            with audio as source:
+                audio_file = recognizer.record(source,duration=150)
+                st.write(recognizer.recognize_google(audio_file))
     
+        except OSError:
+            st.write("please give the path of mp4 file")
 
             
