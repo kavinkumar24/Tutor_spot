@@ -351,8 +351,75 @@ elif select=="Scraping data in youtube":
                 except VideoUnavailable:
                     st.warning("Paste the url in the given box",icon="⚠️")
                         
+                        
+elif select=="MP4/MP3 to Text":
+    #mp4 to text
+    
+    st.header("This option is support only in PC so please try in PC")
+    page_bg_img = f"""
+    <style>
+    .st-bx{{
+        border:2px solid #e8d2c3;
+    }}
+    *{{
+    color:black;
+     }}
+    [data-testid="stAppViewContainer"] > .main {{
+    background-color: #f3f0ec;
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    
+    }}
+    [data-testid="stHeader"]{{
+        background-color:rgba(0,0,0,0);
+    }}
+    </style>
+    """
+
+    st.markdown(page_bg_img, unsafe_allow_html=True)
+    st.markdown(
+        """
+        <style>
+            .stButton > button{
+                border-radius:10%;
+                background-color:#fc6762;
+                color:black;
+                position:relative;
+                left:200px;
+                bottom:-10px;
                 
-                    
+            }
+             .stButton > button:hover{
+                 background-color:#fa817d;
+                 color:black;
+             }
+            
+    
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+    def load_lottiefile(filepath:str):
+            with open(filepath,"r") as f:
+                    return json.load(f)
+    def load_lottieurl(url:str):
+        r = requests.get(url)
+        if r.status_code !=200:
+            return None 
+        return r.json()
+    lottie_video =load_lottieurl("https://assets10.lottiefiles.com/private_files/lf30_wvlpcbl8.json")
+
+    st_lottie (
+        lottie_video,
+        speed=1,
+        quality = "low",
+        height=200,
+        width=420,
+        key=None
+    )
+    path_input =st.text_input("Enter the relative path of mp4 file:",placeholder="give the path of mp4 file")
 
     
 
