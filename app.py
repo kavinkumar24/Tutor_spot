@@ -17,7 +17,6 @@ import youtube_dl
 import speech_recognition as sr
 import json
 import requests,sys,webbrowser,bs4
-
 from youtube_transcript_api import YouTubeTranscriptApi,NoTranscriptFound,VideoUnavailable
 import nltk
 import string
