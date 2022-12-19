@@ -223,11 +223,6 @@ elif select== "Find best books":
 
             
 elif select=="Scraping data in youtube":
-    
-    
-    
-    
-    
     st.title("Welcome to Our webpage (learn everywhere)")
     def load_lottiefile(filepath:str):
         with open(filepath,"r") as f:
@@ -251,10 +246,6 @@ elif select=="Scraping data in youtube":
     with st.container():
         st.subheader('This webpage tells about web scrabbing by using AI')
         st.title('web extracting data in social media videos')
-        
-    
-       
-
 
     with st.container():
         try:
@@ -549,8 +540,6 @@ elif select=='read the language':
         input_language = "ur"
     
             
-        
-    
     out_lang = st.selectbox(
         "Select your output language",
         ("Afrikaans","Arabic","Bengali","Czech","Chinese","Danish","Dutch","English","Finnish","French","German","Greek","Hindi","Hungarian","Italian",  "Japanese", "Kannada","korean","Malayalam","Russian","Tamil","Telugu","Spanish","Urdu"),
@@ -639,8 +628,6 @@ elif select=='read the language':
         tld = "ie"
     elif english_accent == "South Africa":
         tld = "co.za"
-
-
 
     def text_to_speech(input_language, output_language, text, tld):
         translation = translator.translate(text, src=input_language, dest=output_language)
