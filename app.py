@@ -793,20 +793,4 @@ elif select=='read the language':
         remove_files(7)
         st.subheader("To see the pdf please give the realtive path:")
         if st.checkbox("Show pdf "):
-            pdf_input=st.text_input("enter the relative path:")
-            pdf_path = ""
-            for k in pdf_input:
-                if k!='"':
-                    pdf_path=pdf_path+k
-                
-            try:
-                def show_pdf(pdf_path):
-                    with open(pdf_path,"rb") as f:
-                            base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-                    pdf_display = f'<embed src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf">'
-                    st.markdown(pdf_display, unsafe_allow_html=True)
-                st.write(show_pdf(r"{}".format(pdf_path)))
-            except FileNotFoundError:
-                pass
-    except AttributeError:
-        pass  
+          
