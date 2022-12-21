@@ -1,4 +1,4 @@
-from tokenize import Name
+from tokenize import Name 
 from urllib.request import urlopen
 import requests
 from googletrans import Translator
@@ -159,10 +159,8 @@ elif select == "Contact":
         border-radius:200px;
         background-color: #c8d8e4;
         }}
-    
     </style>
     """
-    
     new_title = '<p style="font-family:serif; color:Green; font-size: 42px;">This WebTool  was developed by AI lab students for student use </p>'
     st.markdown(new_title, unsafe_allow_html=True)
     
@@ -272,11 +270,8 @@ elif select=="Scraping data in youtube":
     )
     
     base = "light"
-    base = "light"
-    
     if st.button("Click To view the details of the video"):
         try:
-            
             with st.container():
                 st.write("Title :", yt.title)
                 # To get number of views
@@ -333,7 +328,6 @@ elif select=="Scraping data in youtube":
                         
 elif select=="MP4/MP3 to Text":
     #mp4 to text
-    
     st.header("This option is support only in PC so please try in PC")
     st.caption("We will update soon")
     page_bg_img = f"""
