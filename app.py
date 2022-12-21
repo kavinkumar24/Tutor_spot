@@ -57,8 +57,6 @@ with st.sidebar:
     
 
 if select == "Text summarization ":
-    
-
     page_bg_img = f"""
    <style>
     .st-bx{{
