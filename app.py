@@ -142,8 +142,6 @@ elif select=="English Translator":
     }}
     </style>
     """
-
-    st.markdown(page_bg_img, unsafe_allow_html=True)
     st.markdown(page_bg_img, unsafe_allow_html=True)
     st.header("Translator:")
     text = st.text_area("enter any language it will tranlate into english:",height=130)
