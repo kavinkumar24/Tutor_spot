@@ -122,8 +122,6 @@ if select == "Text summarization ":
             st.write(" ")
             
 elif select=="English Translator":
-    import base64
-
     page_bg_img = f"""
     <style>
     .st-bx{{
