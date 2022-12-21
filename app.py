@@ -24,7 +24,6 @@ from heapq import nlargest
 from streamlit_option_menu import option_menu
 from gtts import gTTS
 from googletrans import Translator
-
 import base64
 import string
 import sys
