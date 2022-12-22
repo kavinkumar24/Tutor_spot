@@ -49,7 +49,6 @@ with st.sidebar:
     background-color:#faeae8;
     color:white;    
     }}
-   
     </style>
     """ 
     st.markdown(page_bg_img, unsafe_allow_html=True)
