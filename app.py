@@ -148,7 +148,6 @@ elif select=="English Translator":
         translated_text = translator.translate(text)
         st.write(translated_text.text)
         
-        
 elif select == "Contact":
     st.image("test.jpg")
     page_bg_img=f"""
@@ -164,7 +163,6 @@ elif select == "Contact":
     
     original_title = '<p style="font-family:courier; color:Blue; font-size: 32px;">Main_Role: KAVIN KUMAR P</p>'
     st.markdown(original_title, unsafe_allow_html=True)
-    
 
 elif select== "Find best books":
             st.title("Now-a-days, we prefer e-book rather than offline books")
@@ -207,7 +205,6 @@ elif select== "Find best books":
 
             st.markdown(page_bg_img, unsafe_allow_html=True)
 
-            
 elif select=="Scraping data in youtube":
     st.title("Welcome to Our webpage (learn everywhere)")
     def load_lottiefile(filepath:str):
@@ -322,7 +319,6 @@ elif select=="Scraping data in youtube":
                     st.warning("sorry this video does not contain the subtitles")
                 except VideoUnavailable:
                     st.warning("Paste the url in the given box",icon="⚠️")
-                        
                         
 elif select=="MP4/MP3 to Text":
     #mp4 to text
