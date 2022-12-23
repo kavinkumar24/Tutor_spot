@@ -432,7 +432,6 @@ elif select=="MP4/MP3 to Text":
     for j in path1:
         if j!='"':
             updated_path1=updated_path1+j
-    
     # the below algorithm is used to convert the audio into text
     if st.button("mp3 to text"):
         
@@ -441,7 +440,6 @@ elif select=="MP4/MP3 to Text":
             audio_path.write_audiofile("cplusplus.wav")
             audio1 = sr.AudioFile("cplusplus.wav")
             recognizer = sr.Recognizer()
-
             with audio1 as source:
                 audio_file1 = recognizer.record(source,duration=120)
                 st.write(recognizer.recognize_google(audio_file1))
@@ -461,9 +459,7 @@ elif select=='read the language':
         pass
     st.title("Text to speech")
     translator = Translator()
-
     text = st.text_area("Enter Text ", height=150,placeholder="type the text here....")
-
     in_lang = st.selectbox(
         "Select your input language",
         ("Afrikaans","Arabic","Bengali","Czech","Chinese","Danish","Dutch","English","Finnish","French","German","Greek","Hindi","Hungarian","Italian",  "Japanese", "Kannada","korean","Malayalam","Russian","Tamil","Telugu","Spanish","Urdu"),
