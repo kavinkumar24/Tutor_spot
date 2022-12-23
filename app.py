@@ -53,7 +53,6 @@ with st.sidebar:
     st.markdown(page_bg_img, unsafe_allow_html=True)
     base='light'
     
-
 if select == "Text summarization ":
     page_bg_img = f"""
    <style>
