@@ -201,7 +201,6 @@ elif select== "Find best books":
             }}
             </style>
             """
-
             st.markdown(page_bg_img, unsafe_allow_html=True)
 
 elif select=="Scraping data in youtube":
@@ -215,7 +214,6 @@ elif select=="Scraping data in youtube":
             return None 
         return r.json()
     lottie_load1 =load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_p4q9ra7d.json")
-
     st_lottie (
         lottie_load1,
         speed=1,
@@ -224,11 +222,9 @@ elif select=="Scraping data in youtube":
         width=700,
         key=None
     )
-
     with st.container():
         st.subheader('This webpage tells about web scrabbing by using AI')
         st.title('web extracting data in social media videos')
-
     with st.container():
         try:
             url = st.text_input('The URL link', placeholder = "type your url")
