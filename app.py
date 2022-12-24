@@ -383,7 +383,6 @@ elif select=="MP4/MP3 to Text":
         key=None
     )
     path_input =st.text_input("Enter the relative path of mp4 file:",placeholder="give the path of mp4 file")
-
     path = ""
     for i in path_input:
         if i!='"':
@@ -444,7 +443,6 @@ elif select=="MP4/MP3 to Text":
         os.remove(r'cplusplus.wav')
     except FileNotFoundError:
         st.write(" ")
-       
     
 elif select=='read the language':
         
