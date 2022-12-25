@@ -44,7 +44,6 @@ with st.sidebar:
         color:black;
     }}
     [data-testid="stSidebar"] {{
-
     background-color:#faeae8;
     color:white;    
     }}
@@ -67,7 +66,6 @@ if select == "Text summarization ":
     background-size: 180%;
     background-position: top left;  
     background-attachment: local;
-    
     }}
     [data-testid="stHeader"]{{
         background-color:rgba(0,0,0,0);
@@ -85,23 +83,18 @@ if select == "Text summarization ":
                     length = int(round(text.count(". ")/10, 0))
                 else:
                     length = 1
-
                 nopuch =[char for char in text if char not in string.punctuation]
                 nopuch = "".join(nopuch)
-
                 processed_text = [word for word in nopuch.split() if word.lower() not in nltk.corpus.stopwords.words('english')]
-
                 word_freq = {}
                 for word in processed_text:
                     if word not in word_freq:
                         word_freq[word] = 1
                     else:
                         word_freq[word] = word_freq[word] + 1
-
                 max_freq = max(word_freq.values())
                 for word in word_freq.keys():
                     word_freq[word] = (word_freq[word]/max_freq)
-
                 sent_list = nltk.sent_tokenize(text)
                 sent_score = {}
                 for sent in sent_list:
@@ -111,7 +104,6 @@ if select == "Text summarization ":
                                 sent_score[sent] = word_freq[word]
                             else:
                                 sent_score[sent] = sent_score[sent] + word_freq[word]
-
                 summary_sents = nlargest(length, sent_score, key=sent_score.get)
                 summary = " ".join(summary_sents)
                 st.write(summary)
@@ -159,7 +151,6 @@ elif select == "Contact":
     """
     new_title = '<p style="font-family:serif; color:Green; font-size: 42px;">This WebTool  was developed by AI lab students for student use </p>'
     st.markdown(new_title, unsafe_allow_html=True)
-    
     original_title = '<p style="font-family:courier; color:Blue; font-size: 32px;">Main_Role: KAVIN KUMAR P</p>'
     st.markdown(original_title, unsafe_allow_html=True)
 
