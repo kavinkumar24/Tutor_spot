@@ -35,8 +35,7 @@ with st.sidebar:
     select = option_menu(
         menu_title="Main Menu",
         options = ["Scraping data in youtube","Text summarization ","English Translator","MP4/MP3 to Text","Find best books","read the language","Contact"],
-        menu_icon="cast"
-        )
+        menu_icon="cast")
     page_bg_img = f"""
     <style>
     .menu .container-xxl[data-v-4323f8ce]{{
