@@ -661,12 +661,4 @@ elif select=='read the language':
     """
 
     st.markdown(page_bg_img, unsafe_allow_html=True)
-# for pdf use the below options:
-    st.header("(OR)")
-    st.title(" Upload the pdf file in below")
-    
-    try:
-        os.mkdir("temp")
-    except:
-        pass
-    translator = Translator()
+   
