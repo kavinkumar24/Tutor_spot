@@ -11,4 +11,7 @@ Easiy for data Analysis
 In this website tere are many option which is used for the students or professionl software workers This is fully made by python
 
 # features of this webpage:
-
+  1. Details that was scrapped in the youtube, with its subtitles, Also download the video in your local device
+  2. Text summarization => it will short the sentence of the long paragraph
+  3. English translator => it will translate any language into english 
+  4. Mp4 to text and Mp3 to text (text,extraction from both video and its audio)
