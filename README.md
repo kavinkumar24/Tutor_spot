@@ -15,3 +15,5 @@ In this website tere are many option which is used for the students or professio
   2. Text summarization => it will short the sentence of the long paragraph
   3. English translator => it will translate any language into english 
   4. Mp4 to text and Mp3 to text (text,extraction from both video and its audio)
+  5. The 4th option is partially completed the remaining work done in future
+  6. The last option is translate with any language into desired languages
