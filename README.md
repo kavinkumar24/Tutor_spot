@@ -18,4 +18,4 @@ In this website tere are many option which is used for the students or professio
   4. Mp4 to text and Mp3 to text (text,extraction from both video and its audio)
   5. The 4th option is partially completed the remaining work done in future
   6. The last option is translate with any language into desired languages
-  7. It is web-applicatio which is suitable for any other devices and adjust its size automatically 
+  7. It is web-application which is suitable for any other devices and adjust its size automatically 
