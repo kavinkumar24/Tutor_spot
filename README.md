@@ -20,4 +20,4 @@ In this website tere are many option which is used for the students or professio
   6. The last option is translate with any language into desired languages
   7. It is web-application which is suitable for any other devices and adjust its size automatically 
  
- This webpage 
+ This webpage is hep for school
