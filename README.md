@@ -5,7 +5,6 @@ This website was created by me , with the opensource framework in python which i
 Streamlit is a framwork or library in python, In this library we can easily integrate python into html without the HTML code
 
 By using this:
-
 Integrate AI in webpage
 Easiy for data Analysis
 In this website tere are many option which is used for the students or professionl software workers This is fully made by python
@@ -21,4 +20,4 @@ In this website tere are many option which is used for the students or professio
   7. It is web-application which is suitable for any other devices and adjust its size automatically 
  
  This webpage is hep for school students for learning, and the second thing it will helpful for developers and 
-  professionals in the IT field
+    professionals in the IT field
