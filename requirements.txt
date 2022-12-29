@@ -15,7 +15,6 @@ google-search==1.1.1
 googletrans==3.1.0a0
 pytube==12.1.0
 moviepy==1.0.3
-
 youtube-dl==2021.12.17
 youtube-transcript-api==0.4.4
 nltk==3.7
