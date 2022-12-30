@@ -23,4 +23,4 @@ In this website tere are many option which is used for the students or professio
     professionals in the IT field.
  This webpage is fully prepared Majorly in python and Html, css is just used in this, so it will take less Maintenance 
        for the admin
- 
+qqqqqqqqq 
