@@ -1,6 +1,6 @@
 # Tutor_spot
 
-This website was created by me , with the opensource framework in python which is streamlit
+This website was created by me, with the opensource framework in python which is streamlit
 
 Streamlit is a framwork or library in python, In this library we can easily integrate python into html without the HTML code
 
