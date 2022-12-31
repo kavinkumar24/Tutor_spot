@@ -20,6 +20,6 @@ In this website tere are many option which is used for the students or professio
   7. It is web-application which is suitable for any other devices and adjust its size automatically 
  
  This webpage is hep for school students for learning, and the second thing it will helpful for developers and 
-    professionals in the IT field.
+    professionals in the IT field,
  This webpage is fully prepared Majorly in python and Html, css is just used in this, so it will take less Maintenance 
        for the admin
