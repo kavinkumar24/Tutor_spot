@@ -107,7 +107,7 @@ if select == "Text summarization ":
                 summary = " ".join(summary_sents)
                 st.write(summary)
         except ValueError:
-            st.write(" ")
+            st.write("")
             
 elif select=="English Translator":
     page_bg_img = f"""
