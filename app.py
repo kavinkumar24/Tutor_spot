@@ -668,3 +668,5 @@ elif select=='read the language':
             choose = reading.getPage(num)
             text = choose.extractText()
         st.write(text)
+     except AttributeError:
+        pass 
