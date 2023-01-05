@@ -648,7 +648,7 @@ elif select=='read the language':
     </style>
     """
 
-   st.markdown(page_bg_img, unsafe_allow_html=True)
+st.markdown(page_bg_img, unsafe_allow_html=True)
 st.header("(OR)")
 st.title(" Upload the pdf file in below")
 
