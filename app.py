@@ -659,12 +659,12 @@ elif select=='read the language':
     translator = Translator()
     
     pdf = st.file_uploader("Enter upload the pdf file from your device:",type=["pdf"])
-        st.subheader("Click enter and than proceed")
-        try:
-            reading = PyPDF2.PdfFileReader(pdf)
-            pages = reading.numPages
+    st.subheader("Click enter and than proceed")
+    try:
+        reading = PyPDF2.PdfFileReader(pdf)
+        pages = reading.numPages
 
-            for num in range(0,pages):
-                choose = reading.getPage(num)
-                text = choose.extractText()
-            st.write(text)
+        for num in range(0,pages):
+            choose = reading.getPage(num)
+            text = choose.extractText()
+        st.write(text)
