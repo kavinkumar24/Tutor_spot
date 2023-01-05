@@ -619,7 +619,7 @@ elif select=='read the language':
             st.write(" ")
 
 
-    remove_files()
+    
     page_bg_img = f"""
     <style>
     .st-bx{{
