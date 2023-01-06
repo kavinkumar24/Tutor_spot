@@ -234,8 +234,7 @@ elif select=="Scraping data in youtube":
                 background-color:#DAFDF4;
                 border-color: green;
                 color:black;
-            }
-            
+            }  
             .stTextInput>div>div>TextInput {
                 color: #4F8BF9;
                 border-color: green;
