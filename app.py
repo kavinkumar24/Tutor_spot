@@ -238,7 +238,7 @@ elif select=="Scraping data in youtube":
             .stTextInput>div>div>TextInput {
                 color: #4F8BF9;
                 border-color: green;
-            }
+             }
             [data-testid="stAppViewContainer"] > .main {
                background-color: #f3f0ec;
              }
