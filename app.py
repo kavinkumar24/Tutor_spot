@@ -846,7 +846,6 @@ elif select=='read the language':
                         print("Deleted ", f)
 
 
-        remove_files(7)
         st.subheader("To see the pdf please give the realtive path:")
         if st.checkbox("Show pdf "):
             pdf_input=st.text_input("enter the relative path:")
