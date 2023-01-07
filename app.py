@@ -844,6 +844,3 @@ elif select=='read the language':
                     if os.stat(f).st_mtime < now - n_days:
                         os.remove(f)
                         print("Deleted ", f)
-
-
-        
