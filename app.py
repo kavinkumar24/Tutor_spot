@@ -817,7 +817,6 @@ elif select=='read the language':
             tts.save(f"temp/{my_file_name}.mp3")
             return my_file_name, trans_text
 
-
         display_output_text = st.checkbox("Display output ")
 
         if st.button("convert here"):
