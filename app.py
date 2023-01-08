@@ -228,7 +228,6 @@ elif select=="Scraping data in youtube":
         border:2px solid #e8d2c3;
         background-color:white;
             }
-        
             .stButton > button{
                 border-radius:12%;
                 background-color:#DAFDF4;
