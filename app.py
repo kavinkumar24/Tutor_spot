@@ -788,7 +788,6 @@ elif select=='read the language':
                 "South Africa",
             ),
         )
-
         if english_accent == "Default":
             tld = "com"
         elif english_accent == "India": 
