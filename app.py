@@ -666,8 +666,7 @@ elif select=='read the language':
         st.write(text)
         in_lang = st.selectbox(
             " select the Input language ",
-            ("Afrikaans","Arabic","Bengali","Czech","Chinese","Danish","Dutch","English","Finnish","French","German","Greek","Hindi","Hungarian","Italian",  "Japanese", "Kannada","korean","Malayalam","Russian","Tamil","Telugu","Spanish","Urdu",),
-        )
+            ("Afrikaans","Arabic","Bengali","Czech","Chinese","Danish","Dutch","English","Finnish","French","German","Greek","Hindi","Hungarian","Italian",  "Japanese", "Kannada","korean","Malayalam","Russian","Tamil","Telugu","Spanish","Urdu",))
         if in_lang == "Afrikaans":
             input_language = "af"
         elif in_lang == "Arabic":
