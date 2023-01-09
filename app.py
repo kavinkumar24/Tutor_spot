@@ -600,7 +600,6 @@ elif select=='read the language':
             st.markdown(f"## Output text:")
             st.write(f" {output_text}")
 
-
     def remove_files():
         mp3_files = "temp/*mp3"
         try:
