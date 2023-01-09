@@ -415,7 +415,6 @@ elif select=="MP4/MP3 to Text":
             updated_path1=updated_path1+j
     # the below algorithm is used to convert the audio into text
     if st.button("mp3 to text"):
-        
         try:
             audio_path = mp.AudioFileClip(r"{}".format(updated_path1)) 
             audio_path.write_audiofile("cplusplus.wav")
