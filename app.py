@@ -106,7 +106,7 @@ if select == "Text summarization ":
                 summary_sents = nlargest(length, sent_score, key=sent_score.get)
                 summary = " ".join(summary_sents)
                 st.write(summary)
-        except ValueError:
+        except ValueError: 
             st.write("")
             
 elif select=="English Translator":
