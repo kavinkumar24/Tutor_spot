@@ -544,7 +544,6 @@ elif select=='read the language':
     elif out_lang =="Urdu":
         output_language = "ur"
     
-    
     english_accent = st.selectbox(
         "Select your english accent",
         (
