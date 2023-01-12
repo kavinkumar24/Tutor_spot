@@ -789,7 +789,6 @@ elif select=='read the language':
             tld = "ie"
         elif english_accent == "South Africa":
             tld = "co.za"
-
         def text_to_speech(input_language, output_language, text, tld):
             translation = translator.translate(text, src=input_language, dest=output_language)
             trans_text = translation.text
