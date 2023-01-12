@@ -706,7 +706,6 @@ elif select=='read the language':
             input_language = "es"
         elif in_lang =="Urdu":
             input_language = "ur"
-
         out_lang = st.selectbox(
             "Select the output language",
             ("Afrikaans","Arabic","Bengali","Czech","Chinese","Danish","Dutch","English","Finnish","French","German","Greek","Hindi","Hungarian","Italian",  "Japanese", "Kannada","korean","Malayalam","Russian","Tamil","Telugu","Spanish","Urdu"),
