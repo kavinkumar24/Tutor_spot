@@ -599,7 +599,6 @@ elif select=='read the language':
     def remove_files():
         mp3_files = "temp/*mp3"
         try:
-            
             if len(mp3_files) != 0:
                 for f in mp3_files:
                     os.remove(f)
