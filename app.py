@@ -712,7 +712,6 @@ elif select=='read the language':
         )
         if out_lang == "Afrikaans":
             output_language = "af"
-            
         elif out_lang == "Arabic":
             output_language = "ar"
         elif out_lang =="Bengali":
