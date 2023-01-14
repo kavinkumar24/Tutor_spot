@@ -806,14 +806,13 @@ elif select=='read the language':
             audio_bytes = audio_file.read()
             st.markdown(f"## Your audio:")
             st.audio(audio_bytes, format="audio/mp3", start_time=0)
-
+            
             if display_output_text:
                 st.markdown(f"## Output text:")
                 st.write(f" {output_text}")
 
 
         def remove_files(n):
-            
             mp3_files = glob.glob("temp/*mp3")
             if len(mp3_files) != 0:
                 now = time.time()
