@@ -811,7 +811,6 @@ elif select=='read the language':
                 st.markdown(f"## Output text:")
                 st.write(f" {output_text}")
 
-
         def remove_files(n):
             mp3_files = glob.glob("temp/*mp3")
             if len(mp3_files) != 0:
