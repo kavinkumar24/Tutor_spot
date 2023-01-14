@@ -763,7 +763,7 @@ elif select=='read the language':
         english_accent = st.selectbox(
             "Select your english",
             (
-                "Default",
+               "Default",
                 "India",
                 "United Kingdom",
                 "United States",
@@ -771,8 +771,7 @@ elif select=='read the language':
                 "Australia",
                 "Ireland",
                 "South Africa",
-            ),
-        )
+            ),)
         if english_accent == "Default":
             tld = "com"
         elif english_accent == "India": 
