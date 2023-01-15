@@ -41,7 +41,7 @@ with st.sidebar:
     .menu .container-xxl[data-v-4323f8ce]{{
         background-color:white;
         color:black;
-    }}
+    }} 
     [data-testid="stSidebar"] {{
     background-color:#faeae8;
     color:white;    
