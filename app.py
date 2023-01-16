@@ -40,7 +40,7 @@ with st.sidebar:
     <style>
     .menu .container-xxl[data-v-4323f8ce]{{
         background-color:white;
-        color:black;
+        color:black; 
     }} 
     [data-testid="stSidebar"] {{
     background-color:#faeae8;
