@@ -824,4 +824,3 @@ elif select=='read the language':
     except:
         pass
 
-
