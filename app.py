@@ -69,7 +69,7 @@ if select == "Text summarization ":
     [data-testid="stHeader"]{{
         background-color:rgba(0,0,0,0);
     }}
-    </style>
+    </style> 
     """ 
     st.markdown(page_bg_img, unsafe_allow_html=True)
     # summarize the given text
