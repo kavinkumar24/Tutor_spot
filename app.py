@@ -8,7 +8,7 @@ import speech_recognition as sr
 import moviepy.editor as mp
 import webbrowser 
 from PIL import Image 
-import streamlit as st
+import streamlit as st 
 from streamlit_lottie import st_lottie
 from pytube import YouTube
 import urllib
