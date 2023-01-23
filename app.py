@@ -4,7 +4,7 @@ import requests
 from googletrans import Translator
 from pytube.exceptions import RegexMatchError
 import requests 
-import speech_recognition as sr 
+import speech_recognition as sr  
 import moviepy.editor as mp
 import webbrowser 
 from PIL import Image 
