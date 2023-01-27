@@ -57,6 +57,7 @@ if select == "Text summarization ":
     .st-bx{{
         border:2px solid #e8d2c3;
     }}
+    
     *{{
     color:black;
      }}
