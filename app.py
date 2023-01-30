@@ -790,7 +790,6 @@ elif select=='read the language':
         elif english_accent == "South Africa":
             tld = "co.za"
             
-            
         def text_to_speech(input_language, output_language, text, tld):
             translation = translator.translate(text, src=input_language, dest=output_language)
             trans_text = translation.text
@@ -801,7 +800,7 @@ elif select=='read the language':
                 my_file_name = "audio"
             tts.save(f"temp/{my_file_name}.mp3")
             return my_file_name, trans_text
-
+        
         display_output_text = st.checkbox("Display output ")
         if st.button("convert here"):
             result, output_text = text_to_speech(input_language, output_language, text, tld)
