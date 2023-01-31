@@ -610,7 +610,6 @@ elif select=='read the language':
         except PermissionError:
             st.write(" ")
 
-    
     page_bg_img = f"""
     <style>
     .st-bx{{
