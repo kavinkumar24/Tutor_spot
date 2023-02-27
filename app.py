@@ -19,7 +19,7 @@ import json
 import requests,sys,webbrowser,bs4
 from youtube_transcript_api import YouTubeTranscriptApi,NoTranscriptFound,VideoUnavailable
 import nltk
-import string
+import string 
 from heapq import nlargest 
 from streamlit_option_menu import option_menu
 from gtts import gTTS
