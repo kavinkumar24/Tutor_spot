@@ -139,6 +139,7 @@ elif select=="English Translator":
         translated_text = translator.translate(text)
         st.write(translated_text.text)
         
+        
 elif select == "Contact":
     st.image("test.jpg")
     page_bg_img=f"""
