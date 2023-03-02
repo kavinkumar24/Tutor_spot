@@ -52,7 +52,7 @@ with st.sidebar:
     base='light'  
     
 if select == "Text summarization ":
-    page_bg_img = f"""
+    page_bg_img = f""" 
    <style>
     .st-bx{{
         border:2px solid #e8d2c3;
