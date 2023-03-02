@@ -142,7 +142,7 @@ elif select=="English Translator":
         
 elif select == "Contact":
     st.image("test.jpg")
-    page_bg_img=f"""
+    page_bg_img=f""" 
     <style>
     [data-testid="stImage"] {{
         border-radius:200px;
