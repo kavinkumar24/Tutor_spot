@@ -59,7 +59,7 @@ if select == "Text summarization ":
     }}
     
     *{{
-    color:black;
+    color:black; 
      }}
     [data-testid="stAppViewContainer"] > .main {{
     background-color:#f3f0ec;
