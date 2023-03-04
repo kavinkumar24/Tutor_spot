@@ -350,7 +350,6 @@ elif select=="MP4/MP3 to Text":
                  color:black;
              }
             
-    
         </style>
         """,
         unsafe_allow_html=True
