@@ -138,7 +138,7 @@ elif select=="English Translator":
         translator = Translator()
         translated_text = translator.translate(text)
         st.write(translated_text.text)
-        
+    
         
 elif select == "Contact":
     st.image("test.jpg")
