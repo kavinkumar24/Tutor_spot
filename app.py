@@ -409,7 +409,6 @@ elif select=="MP4/MP3 to Text":
         key=None
     )
     #mp3 to text
-
     path1 = st.text_input("Enter the path of mp3 or wav file:",placeholder="Give the total relative path of Mp3 or wav file only")
     updated_path1=""
     for j in path1:
