@@ -29,7 +29,7 @@ import string
 import sys
 import time
 import PyPDF2 
-import base64 
+import base64
 with st.sidebar: 
     st.title("Tutor Spot")
     select = option_menu(
