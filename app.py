@@ -65,7 +65,7 @@ if select == "Text summarization ":
     background-color:#f3f0ec;
     background-size: 180%;
     background-position: top left;  
-    background-attachment: local;
+    background-attachment: local; 
     }}
     [data-testid="stHeader"]{{
         background-color:rgba(0,0,0,0);
