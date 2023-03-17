@@ -1,6 +1,6 @@
 from tokenize import Name
 from urllib.request import urlopen  
-import requests 
+import requests
 from googletrans import Translator
 from pytube.exceptions import RegexMatchError
 import requests
