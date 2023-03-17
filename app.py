@@ -6,7 +6,7 @@ from pytube.exceptions import RegexMatchError
 import requests
 import speech_recognition as sr
 import moviepy.editor as mp
-import webbrowser  
+import webbrowser
 from PIL import Image
 import streamlit as st 
 from streamlit_lottie import st_lottie  
