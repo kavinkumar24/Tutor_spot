@@ -193,9 +193,8 @@ elif select== "Find best books":
             }}
             </style>
             """
-            
-            
-st.markdown(page_bg_img, unsafe_allow_html=True)
+                       
+    st.markdown(page_bg_img, unsafe_allow_html=True)
        
 
 elif select=="Scraping data in youtube":
