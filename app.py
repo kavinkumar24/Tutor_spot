@@ -192,9 +192,8 @@ elif select== "Find best books":
                 background-color:rgba(0,0,0,0);
             }}
             </style>
-            """
-                       
-        st.markdown(page_bg_img, unsafe_allow_html=True)
+            """  
+            st.markdown(page_bg_img, unsafe_allow_html=True)
        
 
 elif select=="Scraping data in youtube":
