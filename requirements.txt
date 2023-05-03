@@ -2,7 +2,7 @@ streamlit==1.12.0
 streamlit-chat==0.0.2.1
 streamlit-lottie==0.0.3
 pywhatkit==5.4
-streamlit-option-menu==0.3.2
+streamlit-option-menu==0.3.2  
 streamlit-player==0.1.5
 PyPDF2==2.10.3
 tokenizer==3.4.1
