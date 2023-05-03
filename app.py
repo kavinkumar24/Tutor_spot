@@ -1,5 +1,5 @@
 from tokenize import Name
-from urllib.request import urlopen  
+from urllib.request import urlopen
 import requests
 from googletrans import Translator
 from pytube.exceptions import RegexMatchError
