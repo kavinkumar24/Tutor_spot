@@ -264,10 +264,12 @@ elif select=="Scraping data in youtube":
         except NameError:
             st.warning("Paste the url and proceed",icon="⚠️")
 
+home_dir = os.path.expanduser("~")
+download_path = os.path.join(home_dir, "Downloads")
     if st.button('Download MP4'):
         try:
             stream = yt.streams.get_highest_resolution()
-            stream.download('Downloads')
+            data = stream.download(download_path)
             st.header("Download completed!!")
             with st.container():
                 def load_lottiefile(filepath:str):
