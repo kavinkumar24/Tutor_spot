@@ -30,6 +30,8 @@ import sys
 import time
 import PyPDF2
 import base64
+home_dir = os.path.expanduser("~")
+download_path = os.path.join(home_dir, "Downloads")
 with st.sidebar: 
     st.title("Tutor Spot")
     select = option_menu(
@@ -264,8 +266,7 @@ elif select=="Scraping data in youtube":
         except NameError:
             st.warning("Paste the url and proceed",icon="⚠️")
 
-home_dir = os.path.expanduser("~")
-download_path = os.path.join(home_dir, "Downloads")
+
     if st.button('Download MP4'):
         try:
             stream = yt.streams.get_highest_resolution()
