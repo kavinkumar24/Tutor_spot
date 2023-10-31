@@ -6,8 +6,8 @@ Streamlit is a framwork or library in python, In this library we can easily inte
 
 By using this:
 Integrate AI in webpage
-Easiy for data Analysis
-In this website tere are many option which is used for the students or professionl software workers This is fully made by python
+Easily for data Analysis
+In this website there are many option which is used for the students or professionl software workers This is fully made by python
 
 # features of this webpage:
   1. Details that was scrapped in the youtube, with its subtitles, Also download the video in your local device
