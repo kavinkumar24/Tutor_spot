@@ -269,8 +269,8 @@ elif select=="Scraping data in youtube":
 
     if st.button('Download MP4'):
         try:
-            stream = yt.streams.get_highest_resolution()
-            data = stream.download(download_path)
+            
+            yt.streams.first().download()
             st.header("Download completed!!")
             with st.container():
                 def load_lottiefile(filepath:str):
