@@ -150,9 +150,12 @@ elif select == "Contact":
         }}
     </style>
     """
-    new_title = '<p style="font-family:serif; color:Green; font-size: 42px;">This WebTool  was developed by AI lab students for student use </p>'
+    new_title = '<p style="font-family:serif; color:Green; font-size: 42px;">This WebTool  was developed by Full stack lab students for student purpose </p>'
     st.markdown(new_title, unsafe_allow_html=True)
-    original_title = '<p style="font-family:courier; color:Blue; font-size: 32px;">Main_Role: KAVIN KUMAR P</p>'
+    original_title = '<p style="font-family:courier; color:Blue; font-size: 32px;">Developed by: KAVIN KUMAR P \
+        </p>\
+        <a href="https://kavinkumar.onrender.com/">Visit my website</a>\
+        '
     st.markdown(original_title, unsafe_allow_html=True)
 
 elif select== "Find best books":
