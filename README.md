@@ -17,8 +17,6 @@ In this website there are many option which is used for the students or professi
   5. The 4th option is partially completed the remaining work done in future
   6. The last option is translate with any language into desired languages
   7. It is web-application which is suitable for any other devices and adjust its size automatically 
- 
- This webpage is hep for school students for learning, and the second thing it will helpful for developers and 
-    professionals in the IT field,
- This webpage is fully prepared Majorly in python and Html, css is just used in this, so it will take less Maintenance 
-       for the admin.
+
+# Working Prototype Images
+![Tutor_spot](/img1.png)
