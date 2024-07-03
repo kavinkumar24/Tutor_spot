@@ -19,7 +19,9 @@ In this website there are many option which is used for the students or professi
   7. It is web-application which is suitable for any other devices and adjust its size automatically
 
 # Working Prototype Images
+
 ## Youtube video content filter
+this feature uses an youtube module to extract the details about video and uses a transcript api to generate the subtitles
 ![Tutor_spot](/img1.png)
 
 ## Text summarization
